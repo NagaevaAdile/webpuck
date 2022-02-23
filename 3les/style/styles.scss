@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+img,
+audio,
+video {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.header-text {
+  color: red;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.row {
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+}
+
+.column {
+  flex-basis: 30%;
+}
